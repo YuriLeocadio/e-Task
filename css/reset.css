@@ -95,3 +95,8 @@ input[type="checkbox"] {
   
     cursor: not-allowed;
   }
+
+  .task-item input[type="checkbox"]:checked+p {
+    text-decoration: line-through;
+    color: #6b6572;
+}

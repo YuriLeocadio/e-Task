@@ -18,7 +18,7 @@
     color: #7e2dff;
 }
 
-.subtitle {
+.subtitle, p {
     font-size: 16px;
     color: #8549e6;
 }
@@ -60,6 +60,7 @@
     padding: 20px;
     border-radius: 12px;
     color: #FFF;
+    cursor: pointer;
 }
 
 .task-section{
@@ -87,17 +88,17 @@
     color: #585858;
 }
 
-.number-task-create{
+.count-tasks{
     background-color: #d4bdfa;
     color: #7e2dff;
 }
 
-.number-task-finished{
+.count-finisheds{
     background-color: #a5ebc5;
     color: #206440;
 }
 
-.number-task-create, .number-task-finished{
+.count-tasks, .count-finisheds{
     width: 24px;
     height: 24px;
     display: flex;
